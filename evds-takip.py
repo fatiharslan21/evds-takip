@@ -6,7 +6,7 @@ from plotly.subplots import make_subplots
 from datetime import datetime, timedelta
 
 # --- 1. SAYFA AYARLARI ---
-st.set_page_config(page_title="EVDS Master Analiz", page_icon="🚀", layout="wide")
+st.set_page_config(page_title="EVDS Analiz Paneli", page_icon="🚀", layout="wide")
 
 # --- 2. CSS (Makyaj) ---
 st.markdown("""
@@ -111,8 +111,8 @@ def istatistik_goster(df, col_name, label_name):
 # --- 5. BAŞLIK VE GİRİŞ ---
 st.markdown("""
     <div class="header-container">
-        <h1 style='margin:0;'>📊 EVDS MASTER ANALİZ</h1>
-        <p style='opacity:0.8;'>Detaylı Piyasa ve Korelasyon Analizi</p>
+        <h1 style='margin:0;'>📊 EVDS Analiz Paneli</h1>
+        <p style='opacity:0.8;'>Detaylı Piyasa Analizi</p>
     </div>
 """, unsafe_allow_html=True)
 
